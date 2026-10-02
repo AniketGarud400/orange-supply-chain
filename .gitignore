@@ -1,0 +1,47 @@
+# Dependencies (root and all subprojects)
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets
+.env
+.env*.local
+.env.*
+*.pem
+
+# Hardhat build artifacts & cache
+/artifacts/
+/cache/
+/types/
+/coverage/
+
+# Next.js / React build outputs
+.next/
+out/
+/dist/
+/bundle/
+build/
+
+# Local databases and html dumps
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.html
+
+# Logs & temp debug files
+*.log
+*.log*
+*.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
